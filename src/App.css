@@ -1,0 +1,23 @@
+/* App 级别的样式 */
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* 平滑滚动 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 打印样式 */
+@media print {
+  nav,
+  footer {
+    display: none;
+  }
+}
